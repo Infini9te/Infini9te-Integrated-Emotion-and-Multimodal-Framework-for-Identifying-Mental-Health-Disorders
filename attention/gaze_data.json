@@ -1,0 +1,11 @@
+{
+    "Original GAZE": 6,
+    "Original NOTGAZE": 4,
+    "Verified GAZE": 8,
+    "Verified NOTGAZE": 2,
+    "Seconds": 10,
+    "Original GAZE Ratio": 60.0,
+    "Original NOTGAZE Ratio": 40.0,
+    "Verified GAZE Ratio": 80.0,
+    "Verified NOTGAZE Ratio": 20.0
+}
