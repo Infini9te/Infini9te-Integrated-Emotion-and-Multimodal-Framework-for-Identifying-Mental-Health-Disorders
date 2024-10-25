@@ -1,0 +1,258 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>2250</width>
+    <height>1350</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QGraphicsView" name="graphicsView2">
+    <property name="geometry">
+     <rect>
+      <x>850</x>
+      <y>815</y>
+      <width>1000</width>
+      <height>191</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QWidget" name="widget" native="true">
+    <property name="geometry">
+     <rect>
+      <x>850</x>
+      <y>90</y>
+      <width>1000</width>
+      <height>600</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QGraphicsView" name="graphicsView">
+    <property name="geometry">
+     <rect>
+      <x>40</x>
+      <y>220</y>
+      <width>705</width>
+      <height>505</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QGraphicsView" name="graphicsView3">
+    <property name="geometry">
+     <rect>
+      <x>40</x>
+      <y>740</y>
+      <width>705</width>
+      <height>505</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label">
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>0</y>
+      <width>2250</width>
+      <height>1350</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QWidget" name="widget_2" native="true">
+    <property name="geometry">
+     <rect>
+      <x>1100</x>
+      <y>580</y>
+      <width>1000</width>
+      <height>600</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton1_2">
+    <property name="enabled">
+     <bool>true</bool>
+    </property>
+    <property name="geometry">
+     <rect>
+      <x>1000</x>
+      <y>220</y>
+      <width>400</width>
+      <height>300</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>選擇檔案</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton2_2">
+    <property name="geometry">
+     <rect>
+      <x>1400</x>
+      <y>220</y>
+      <width>400</width>
+      <height>300</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>開始分析</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton_2">
+    <property name="geometry">
+     <rect>
+      <x>1450</x>
+      <y>690</y>
+      <width>400</width>
+      <height>120</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>辨識新影片</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_2">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>10</y>
+      <width>200</width>
+      <height>200</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_3">
+    <property name="geometry">
+     <rect>
+      <x>250</x>
+      <y>10</y>
+      <width>600</width>
+      <height>200</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_4">
+    <property name="geometry">
+     <rect>
+      <x>1950</x>
+      <y>0</y>
+      <width>300</width>
+      <height>300</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton3">
+    <property name="geometry">
+     <rect>
+      <x>850</x>
+      <y>10</y>
+      <width>280</width>
+      <height>75</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>匯出情緒標記影片</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton4">
+    <property name="geometry">
+     <rect>
+      <x>1130</x>
+      <y>10</y>
+      <width>280</width>
+      <height>75</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>匯出情緒雷達圖</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton5">
+    <property name="geometry">
+     <rect>
+      <x>1410</x>
+      <y>10</y>
+      <width>280</width>
+      <height>75</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>匯出情緒時序圖</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton6">
+    <property name="geometry">
+     <rect>
+      <x>1690</x>
+      <y>10</y>
+      <width>280</width>
+      <height>75</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>匯出專注力雷達圖</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton_3">
+    <property name="geometry">
+     <rect>
+      <x>1050</x>
+      <y>690</y>
+      <width>400</width>
+      <height>120</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>影片重播</string>
+    </property>
+   </widget>
+   <zorder>widget_2</zorder>
+   <zorder>label</zorder>
+   <zorder>graphicsView2</zorder>
+   <zorder>widget</zorder>
+   <zorder>graphicsView</zorder>
+   <zorder>graphicsView3</zorder>
+   <zorder>pushButton1_2</zorder>
+   <zorder>pushButton2_2</zorder>
+   <zorder>pushButton_2</zorder>
+   <zorder>label_2</zorder>
+   <zorder>label_3</zorder>
+   <zorder>label_4</zorder>
+   <zorder>pushButton3</zorder>
+   <zorder>pushButton4</zorder>
+   <zorder>pushButton5</zorder>
+   <zorder>pushButton6</zorder>
+   <zorder>pushButton_3</zorder>
+  </widget>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>2250</width>
+     <height>20</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
