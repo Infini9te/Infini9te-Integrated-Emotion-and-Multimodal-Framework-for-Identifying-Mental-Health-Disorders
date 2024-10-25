@@ -1,0 +1,2 @@
+deepface與emotion為驗證程式之python
+api缺少輸出影片之功能
